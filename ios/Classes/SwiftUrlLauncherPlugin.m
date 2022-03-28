@@ -1,4 +1,4 @@
-#import "HelloPlugin.h"
+#import "SwiftUrlLauncherPlugin.h"
 #if __has_include(<hello/hello-Swift.h>)
 #import <hello/hello-Swift.h>
 #else
@@ -8,8 +8,8 @@
 #import "hello-Swift.h"
 #endif
 
-@implementation HelloPlugin
+@implementation SwiftUrlLauncherPlugin
 + (void)registerWithRegistrar:(NSObject<FlutterPluginRegistrar>*)registrar {
-  [SwiftHelloPlugin registerWithRegistrar:registrar];
+  [SwiftUrlLauncherPlugin registerWithRegistrar:registrar];
 }
 @end
